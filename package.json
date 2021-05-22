@@ -1,0 +1,25 @@
+{
+  "name": "webSocket",
+  "version": "1.0.0",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "author": "xkmy <1391376455@qq.com>",
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "webSocket",
+    "typescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xkmy/webSocket.git"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  }
+}
