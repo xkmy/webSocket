@@ -14,7 +14,7 @@ const socket = new Socket({
   onOpenMsg: 'openMsg',
   heartCheckMsg: 'PING',
   onError: e => {
-    console.log(E)
+    console.log(e)
   },
   onMessage: msg => {
     console.log(msg)
